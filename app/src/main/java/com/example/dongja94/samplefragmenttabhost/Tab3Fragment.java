@@ -26,4 +26,10 @@ public class Tab3Fragment extends Fragment {
         return inflater.inflate(R.layout.fragment_tab3, container, false);
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        getActivity().setTitle("Tab3");
+    }
+
 }
