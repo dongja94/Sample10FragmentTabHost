@@ -39,14 +39,14 @@ public class Child1TabFragment extends Fragment {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.menu_f1, menu);
+        inflater.inflate(R.menu.menu_f1_c1, menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_f1 :
-                Toast.makeText(getContext(), "F1M1 clicked", Toast.LENGTH_SHORT).show();
+            case R.id.menu_f1_c1 :
+                Toast.makeText(getContext(), "F1M1C1 clicked", Toast.LENGTH_SHORT).show();
                 return true;
         }
         return super.onOptionsItemSelected(item);
